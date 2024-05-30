@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[1208]Get Equal Substrings Within Budget.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[1208]Get Equal Substrings Within Budget.md" />
+              <option name="frontendQuestionId" value="leetcode.com1208" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[1208]Get Equal Substrings Within Budget.py" />
+              <option name="titleSlug" value="get-equal-substrings-within-budget" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[131]Palindrome Partitioning.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[131]Palindrome Partitioning.md" />
+              <option name="frontendQuestionId" value="leetcode.com131" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[131]Palindrome Partitioning.py" />
+              <option name="titleSlug" value="palindrome-partitioning" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[1325]Delete Leaves With a Given Value.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[1325]Delete Leaves With a Given Value.md" />
+              <option name="frontendQuestionId" value="leetcode.com1325" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[1325]Delete Leaves With a Given Value.py" />
+              <option name="titleSlug" value="delete-leaves-with-a-given-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[137]Single Number II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[137]Single Number II.md" />
+              <option name="frontendQuestionId" value="leetcode.com137" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[137]Single Number II.py" />
+              <option name="titleSlug" value="single-number-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[1442]Count Triplets That Can Form Two Arrays of Equal XOR.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[1442]Count Triplets That Can Form Two Arrays of Equal XOR.md" />
+              <option name="frontendQuestionId" value="leetcode.com1442" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[1442]Count Triplets That Can Form Two Arrays of Equal XOR.py" />
+              <option name="titleSlug" value="count-triplets-that-can-form-two-arrays-of-equal-xor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[15]3Sum.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[15]3Sum.md" />
+              <option name="frontendQuestionId" value="leetcode.com15" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[15]3Sum.py" />
+              <option name="titleSlug" value="3sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[16]3Sum Closest.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[16]3Sum Closest.md" />
+              <option name="frontendQuestionId" value="leetcode.com16" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[16]3Sum Closest.py" />
+              <option name="titleSlug" value="3sum-closest" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[1863]Sum of All Subset XOR Totals.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[1863]Sum of All Subset XOR Totals.md" />
+              <option name="frontendQuestionId" value="leetcode.com1863" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[1863]Sum of All Subset XOR Totals.py" />
+              <option name="titleSlug" value="sum-of-all-subset-xor-totals" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[191]Number of 1 Bits.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[191]Number of 1 Bits.md" />
+              <option name="frontendQuestionId" value="leetcode.com191" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[191]Number of 1 Bits.py" />
+              <option name="titleSlug" value="number-of-1-bits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[2373]Largest Local Values in a Matrix.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[2373]Largest Local Values in a Matrix.md" />
+              <option name="frontendQuestionId" value="leetcode.com2373" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[2373]Largest Local Values in a Matrix.py" />
+              <option name="titleSlug" value="largest-local-values-in-a-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[2597]The Number of Beautiful Subsets.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[2597]The Number of Beautiful Subsets.md" />
+              <option name="frontendQuestionId" value="leetcode.com2597" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[2597]The Number of Beautiful Subsets.py" />
+              <option name="titleSlug" value="the-number-of-beautiful-subsets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[2]Add Two Numbers.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[2]Add Two Numbers.md" />
+              <option name="frontendQuestionId" value="leetcode.com2" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[2]Add Two Numbers.py" />
+              <option name="titleSlug" value="add-two-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[3068]Find the Maximum Sum of Node Values.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[3068]Find the Maximum Sum of Node Values.md" />
+              <option name="frontendQuestionId" value="leetcode.com3068" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[3068]Find the Maximum Sum of Node Values.py" />
+              <option name="titleSlug" value="find-the-maximum-sum-of-node-values" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[4]Median of Two Sorted Arrays.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[4]Median of Two Sorted Arrays.md" />
+              <option name="frontendQuestionId" value="leetcode.com4" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[4]Median of Two Sorted Arrays.py" />
+              <option name="titleSlug" value="median-of-two-sorted-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[78]Subsets.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[78]Subsets.md" />
+              <option name="frontendQuestionId" value="leetcode.com78" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[78]Subsets.py" />
+              <option name="titleSlug" value="subsets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[7]Reverse Integer.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[7]Reverse Integer.md" />
+              <option name="frontendQuestionId" value="leetcode.com7" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[7]Reverse Integer.py" />
+              <option name="titleSlug" value="reverse-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[861]Score After Flipping Matrix.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[861]Score After Flipping Matrix.md" />
+              <option name="frontendQuestionId" value="leetcode.com861" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[861]Score After Flipping Matrix.py" />
+              <option name="titleSlug" value="score-after-flipping-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[979]Distribute Coins in Binary Tree.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/doc/content/[979]Distribute Coins in Binary Tree.md" />
+              <option name="frontendQuestionId" value="leetcode.com979" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/vy/ms3y9bxx5gl3ryml4w053l_m0000gn/T/leetcode/editor/en/[979]Distribute Coins in Binary Tree.py" />
+              <option name="titleSlug" value="distribute-coins-in-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
