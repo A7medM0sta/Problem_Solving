@@ -22,3 +22,37 @@ The time complexity of the solution is O(n), where n is the length of the `custo
 
 The space complexity of the solution is O(1), as we only use a constant amount of space to store the total number of satisfied customers and the maximum number of customers that can be satisfied when the bookstore owner uses their technique.
 ![Space Complexity](space_com_leet_AI.png)
+### ----------------------------------------------
+### ----------------------------------------------
+# Count Number of Nice Subarrays
+
+## Problem Statement
+
+Given an array of integers `nums` and an integer `k`. A continuous subarray is called **nice** if there are `k` odd numbers on it. The goal is to return the number of **nice** sub-arrays.
+
+## Constraints
+
+- `1 <= nums.length <= 50000`
+- `1 <= nums[i] <= 10^5`
+- `1 <= k <= nums.length`
+
+## Example
+
+Input: `nums = [1,1,2,1,1], k = 3`
+
+Output: `2`
+
+Explanation: The only sub-arrays with 3 odd numbers are `[1,1,2,1]` and `[1,2,1,1]`.
+
+## Solution
+
+The problem can be solved using the concept of prefix sums and the principle of inclusion-exclusion. The prefix sum array can be used to keep track of the cumulative sum of odd numbers up to a certain index. The principle of inclusion-exclusion is used to count the number of subarrays that have exactly `k` odd numbers. This is done by counting the number of subarrays that have at most `k` odd numbers and subtracting the number of subarrays that have at most `k-1` odd numbers.
+
+A hash table (or dictionary in Python) is used to store the frequency of prefix sums. The key in the hash table is the prefix sum (i.e., the number of odd numbers up to a certain index), and the value is the number of times this prefix sum occurs. This allows for constant time lookup and update operations, which can significantly speed up the solution.
+
+## Time and Space Complexity
+
+The time complexity of the solution is O(n), where n is the length of the `nums` array. This is because we iterate over the `nums` array once.
+
+The space complexity of the solution is O(n), as we use a hash table to store the frequency of prefix sums.
+![Space Complexity](time_complexity_for_subarray_of.png)
