@@ -1,3 +1,4 @@
+import collections
 from collections import Counter
 import numpy as np
 from itertools import combinations
@@ -291,6 +292,16 @@ class Solution(object):
             print(f'max_grumpy: {max_grumpy}')
         return total + max_grumpy
 
+    def numberOfSubarrays(self, nums: List[int], k: int) -> int:
+        count = collections.defaultdict(int)
+        count[0] = 1
+        previous_num = res = 0
+        for num in nums:
+            previous_num += num % 2
+            if previous_num >= k:
+                res += count[previous_num - k]
+            count[previous_num] += 1
+        return res
 
 
 
@@ -298,7 +309,7 @@ class Solution(object):
 
 
 if __name__ == "__main__":
-    nums = [1, 2, 3, 4, 5]
+    # nums = [1, 2, 3, 4, 5]
     # quality = [10, 20, 5]
     # wage = [70, 50, 30]
     # k = 2
@@ -322,14 +333,16 @@ if __name__ == "__main__":
     # Output = [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
     # print('Output: [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]')
     # print(f'predicted: {Solution.subsets(Solution, nums)}')
-    s = "abcd"
-    t = "cdef"
-    maxCost = 3
-    customers = [1, 0, 1, 2, 1, 1, 7, 5]
-    grumpy = [0, 1, 0, 1, 0, 1, 0, 1]
-    minutes = 3
-    print(Solution.maxSatisfied(Solution, customers=customers, grumpy=grumpy, minutes=minutes))
-    # print(f"differnces: {Solution.equalSubstring(Solution, s, t, maxCost)}")
+    # s = "abcd"
+    # t = "cdef"
+    # maxCost = 3
+    # customers = [1, 0, 1, 2, 1, 1, 7, 5]
+    # grumpy = [0, 1, 0, 1, 0, 1, 0, 1]
+    # minutes = 3
+    nums = [2, 2, 2, 1, 2, 2, 1, 2, 2, 2]
+    k = 2
+    print(Solution.numberOfSubarrays(Solution, nums, k))
+    # print(f"differences: {Solution.equalSubstring(Solution, s, t, maxCost)}")
 
 
 
