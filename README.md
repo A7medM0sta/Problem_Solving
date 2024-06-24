@@ -56,3 +56,39 @@ The time complexity of the solution is O(n), where n is the length of the `nums`
 
 The space complexity of the solution is O(n), as we use a hash table to store the frequency of prefix sums.
 ![Space Complexity](time_complexity_for_subarray_of.png)
+
+## -----------------------------------------------
+## -----------------------------------------------
+
+# Minimum Number of K Consecutive Bit Flips
+
+## Problem Statement
+
+In an array `nums` with only binary digits, we need to flip one subarray of length `k` to change it into a `1`. The goal is to return the minimum number of flips required to convert the entire array into `1`s. If it's not possible to convert the array, return `-1`.
+
+## Constraints
+
+- `1 <= nums.length <= 30000`
+- `1 <= k <= nums.length`
+- `nums[i]` is either `0` or `1`.
+
+## Example
+
+Input: `nums = [0, 1, 0], k = 1`
+
+Output: `2`
+
+Explanation: We can flip the first bit to get `nums = [1, 1, 0]`, then flip the third bit to get `nums = [1, 1, 1]`.
+
+## Solution
+
+The problem can be solved using a greedy approach with a sliding window. We iterate over the array, and if we find a `0`, we flip the next `k` bits. If we reach a point where we need to flip but don't have `k` bits left, we return `-1`.
+
+## Time and Space Complexity
+
+The time complexity of the solution is O(n), where n is the length of the `nums` array. This is because we iterate over the `nums` array once.
+
+The space complexity of the solution is O(n), as we use an additional array to keep track of the flips.
+
+![Space Complexity](time_complexity_for_subarray_of.png)
+

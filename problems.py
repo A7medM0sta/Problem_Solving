@@ -4,7 +4,7 @@ import numpy as np
 from itertools import combinations
 import heapq
 from typing import Optional, List
-
+from collections import deque
 
 # problem solving
 
@@ -303,6 +303,20 @@ class Solution(object):
             count[previous_num] += 1
         return res
 
+    def minKBitFlips(self, nums: List[int], k: int) -> int:
+        n = len(nums)
+        que = deque()
+        res = 0
+        for i in range(n):
+            if que and i >= que[0] + k:
+                que.popleft()
+            if len(que) % 2 == nums[i]:
+                if i + k > n:
+                    return -1
+                que.append(i)
+                res += 1
+        return res
+
 
 
 
@@ -339,9 +353,12 @@ if __name__ == "__main__":
     # customers = [1, 0, 1, 2, 1, 1, 7, 5]
     # grumpy = [0, 1, 0, 1, 0, 1, 0, 1]
     # minutes = 3
-    nums = [2, 2, 2, 1, 2, 2, 1, 2, 2, 2]
-    k = 2
-    print(Solution.numberOfSubarrays(Solution, nums, k))
+    # nums = [2, 2, 2, 1, 2, 2, 1, 2, 2, 2]
+    # k = 2
+
+    nums = [0, 1, 0]
+    k = 1
+    print(Solution.minKBitFlips(Solution, nums, k))
     # print(f"differences: {Solution.equalSubstring(Solution, s, t, maxCost)}")
 
 
