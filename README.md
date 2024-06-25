@@ -92,3 +92,37 @@ The space complexity of the solution is O(n), as we use an additional array to k
 
 ![Space Complexity](time_complexity_for_subarray_of.png)
 
+## ------------------------------------------------------
+## ------------------------------------------------------
+
+# 1038. Binary Search Tree to Greater Sum Tree
+
+## Problem Statement
+
+Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus sum of all keys greater than the original key in BST.
+
+## Constraints
+
+- The number of nodes in the tree is between 1 and 100.
+- Each node will have value between 0 and 100.
+- The given tree is a binary search tree.
+
+## Example
+
+Input: [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
+
+Output: [30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
+
+## Solution
+
+The solution uses a depth-first search (DFS) approach to solve the problem. The DFS function traverses the tree in reverse in-order (right -> root -> left), which ensures that we visit the nodes in descending order. 
+
+A running total of the node values is maintained. For each node, its value is added to the running total, and then the node's value is replaced with the current total.
+
+## Time and Space Complexity
+
+The time complexity for this solution is O(n), where n is the number of nodes in the tree. This is because we visit each node exactly once.
+
+The space complexity is O(h), where h is the height of the tree. This space is used for the call stack during the DFS traversal.
+
+! [Space Complexity] (space_com_Binary_Search_Tree_to_Greater_Sum_Tree.png)

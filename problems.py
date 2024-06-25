@@ -316,7 +316,16 @@ class Solution(object):
                 que.append(i)
                 res += 1
         return res
-
+    def bstToGst(self, root: TreeNode) -> TreeNode:
+        self.total = 0 
+        def dfs(node):
+            if node:
+                dfs(node.right)
+                self.total+= node.val
+                node.val = self.total
+                dfs(node.left)
+        dfs(root)
+        return root
 
 
 
@@ -356,9 +365,11 @@ if __name__ == "__main__":
     # nums = [2, 2, 2, 1, 2, 2, 1, 2, 2, 2]
     # k = 2
 
-    nums = [0, 1, 0]
-    k = 1
-    print(Solution.minKBitFlips(Solution, nums, k))
+    # nums = [0, 1, 0]
+    # k = 1
+    
+    root = [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
+    print(Solution.bstToGst(Solution, root=root))
     # print(f"differences: {Solution.equalSubstring(Solution, s, t, maxCost)}")
 
 
