@@ -125,4 +125,5 @@ The time complexity for this solution is O(n), where n is the number of nodes in
 
 The space complexity is O(h), where h is the height of the tree. This space is used for the call stack during the DFS traversal.
 
-! [Space Complexity] (space_com_Binary_Search_Tree_to_Greater_Sum_Tree.png)
+![Space Complexity](space_com_Binary_Search_Tree_to_Greater_Sum_Tree.png)
+
